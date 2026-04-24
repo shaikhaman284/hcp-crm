@@ -187,7 +187,9 @@ Fetches last 10 interactions with an HCP (fuzzy name match) + sentiment trend + 
 ### Tool 4 — `suggest_followup`
 Generates 3-5 specific, actionable follow-up items for an interaction.
 
-**Example input:** `"uuid-of-interaction"`  
+**Example input:** `Triggered in two ways:
+  A) Auto: right after Tool 1 logs an interaction
+  B) Manual: user types "suggest follow-ups for this interaction`  
 **Returns:**
 ```json
 ["Schedule clinical efficacy demo within 2 weeks",
